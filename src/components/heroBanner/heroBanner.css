@@ -44,19 +44,19 @@ p {
 
 .hero-slide-content {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 3%;
     /* transform: translate(-50%, -50%); */
     color: #fff;
     text-align: left;
     z-index: 2;
-    max-width: 60vw;
+    max-width: 50vw;
 }
 
 .hero-tab-list {
     position: absolute;
-    bottom: 31%;
-    left: 3%;
+    bottom: 36%;
+    left: 3.2%;
     /* transform: translateX(-50%); */
     display: flex;
     gap: 10px;
@@ -96,4 +96,20 @@ p {
 .cta-secondary {
     background-color: rgb(25, 25, 25);
     color: white;
+}
+
+.modal-link {
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.blur {
+    filter: blur(4px);
 }
