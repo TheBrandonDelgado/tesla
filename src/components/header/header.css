@@ -2,9 +2,35 @@
     display: flex;
     position: absolute;
     z-index: 2;
-    margin: 0 45px;
+    justify-content: space-between;
+    width: 100vw;
 }
 
 .logo {
     width: 120px;
+    margin: 0 40px;
+}
+
+#menu-items-middle, #menu-items-end {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#menu-items-end {
+    margin: 0 45px;
+}
+
+#menu-items-middle > li > button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    margin: 0 10px;
+}
+
+#menu-items-end > li {
+    margin: 10px 8px;
 }
