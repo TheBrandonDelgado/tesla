@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './modal.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Modal({ content, id, isOpen, onClose }) {
-    if (!isOpen) return null;
+    useEffect(() => {
+        const modal = document.querySelector(".modal");
+
+        if (isOpen) {
+            modal.classList.add('visible');
+        } else {
+            modal.classList.remove('visible');
+        }
+    }, [isOpen]);
 
     return ReactDOM.createPortal(
         <div className="modal-overlay">

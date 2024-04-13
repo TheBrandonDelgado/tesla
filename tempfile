@@ -1,0 +1,451 @@
+<div id="tds-site-header-wrapper">
+    <div id="mega-menu">
+        <div class="dx-mega-menu">
+            <header class="tds-site-header tds--fade-in" id="tds-site-header">
+                <h1 class="tds-site-logo tds-align--start" alt="This is a Tesla Logo">
+                    <a aria-label="Tesla Logo" class="tds-site-logo-link" href="/">
+                        <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" fill="currentColor"></path>
+                        </svg>
+                        <span class="tds--is_visually_hidden">Tesla</span>
+                    </a>
+                    <a class="tds-skip-to-content tds--is_visually_hidden" href="#main-content" id="top-of-page">Skip to main content</a>
+                </h1>
+                <ol class="tds-site-nav-items tds-align--center dx-nav-item-group">
+                    <li>
+                        <button type="button" id="dx-nav-item--vehicles" class="tds-site-nav-item tds--product-name">
+                            <span class="tds-site-nav-item-text">Vehicles</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" id="dx-nav-item--energy" class="tds-site-nav-item tds--product-name">
+                            <span class="tds-site-nav-item-text">Energy</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" id="dx-nav-item--charging" class="tds-site-nav-item tds--product-name">
+                            <span class="tds-site-nav-item-text">Charging</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" href="" id="dx-nav-item--discover" class="tds-site-nav-item tds--product-name">
+                            <span class="tds-site-nav-item-text">Discover</span>
+                        </button>
+                    </li>
+                    <li>
+                        <a href="https://shop.tesla.com" id="dx-nav-item--shop" class="tds-site-nav-item tds--product-name">
+                            <span class="tds-site-nav-item-text">Shop</span>
+                        </a>
+                    </li>
+                </ol>
+                <ol class="tds-site-nav-items tds-align--end dx-nav-item-group">
+                    <li>
+                        <a href="/support" aria-label="Support" id="dx-nav-item--support" class="tds-site-nav-item tds--product-name tds-site-nav-item--icon-only">
+                            <svg class="tds-icon tds-icon-help" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M12 20.5a8.5 8.5 0 1 1 0-17 8.5 8.5 0 0 1 0 17Zm0 1.5c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Zm0-6a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm.053-3.533a7.8 7.8 0 0 1 .92-.767 6.97 6.97 0 0 0 .746-.61 2.31 2.31 0 0 0 .468-.635c.126-.253.188-.548.188-.883 0-.374-.082-.723-.246-1.048-.158-.324-.415-.588-.771-.792-.356-.203-.81-.305-1.362-.305-.575 0-1.045.116-1.411.347a1.991 1.991 0 0 0-.788.89c-.06.134-.11.272-.148.413-.111.414-.445.767-.874.767-.428 0-.784-.35-.71-.772.07-.407.2-.79.386-1.15.301-.583.758-1.048 1.37-1.394C10.435 6.176 11.185 6 12.07 6c.93 0 1.687.181 2.273.544.59.358 1.014.803 1.271 1.337.257.533.386 1.07.386 1.608 0 .545-.085 1.012-.254 1.403-.17.385-.375.698-.616.94-.235.242-.55.514-.943.817-.312.247-.561.46-.747.635-.18.176-.33.385-.451.627-.05.099-.087.2-.113.302-.108.424-.422.787-.86.787-.437 0-.806-.356-.76-.79a2.948 2.948 0 0 1 .797-1.743Z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <button type="button" aria-label="Region &amp; Language" id="dx-nav-item--locale-selector" class="tds-site-nav-item tds--product-name tds-site-nav-item--icon-only">
+                            <svg class="tds-icon tds-icon-globe" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM9.254 20.047a8.147 8.147 0 0 1-.768-1.378c-.404-.91-.722-1.985-.935-3.169h-3.3a8.526 8.526 0 0 0 5.003 4.547Zm.603-1.988c.336.757.718 1.324 1.103 1.69.382.364.732.501 1.04.501.308 0 .658-.137 1.04-.5.385-.367.767-.934 1.103-1.69.321-.723.588-1.59.78-2.56H9.076c.192.97.459 1.837.78 2.56ZM8.75 12c0 .691.036 1.36.103 2h6.294c.067-.64.103-1.309.103-2 0-.691-.036-1.36-.103-2H8.853c-.067.64-.103 1.309-.103 2Zm-1.405-2H3.737a8.522 8.522 0 0 0-.237 2c0 .689.082 1.359.237 2h3.608a20.75 20.75 0 0 1 0-4Zm1.732-1.5h5.845c-.19-.97-.458-1.837-.779-2.56-.336-.756-.718-1.323-1.103-1.69-.382-.363-.732-.5-1.04-.5-.308 0-.658.137-1.04.5-.385.367-.767.934-1.103 1.69-.321.723-.588 1.59-.78 2.56Zm7.577 1.5a20.728 20.728 0 0 1 0 4h3.61a8.52 8.52 0 0 0 .236-2 8.52 8.52 0 0 0-.237-2h-3.609Zm3.094-1.5a8.526 8.526 0 0 0-5.002-4.547c.287.408.543.873.768 1.378.404.91.722 1.985.935 3.169h3.3Zm-12.197 0c.213-1.184.531-2.26.935-3.169.225-.505.48-.97.768-1.378A8.526 8.526 0 0 0 4.252 8.5h3.3Zm7.963 10.169c-.225.505-.48.97-.768 1.378a8.526 8.526 0 0 0 5.002-4.547h-3.3c-.212 1.184-.53 2.26-.934 3.169Z"></path>
+                            </svg>
+                        </button>
+                    </li>
+                    <li>
+                        <a href="/teslaaccount" aria-label="Account" id="dx-nav-item--account" class="tds-site-nav-item tds--product-name tds-site-nav-item--icon-only">
+                            <svg class="tds-icon tds-icon-person" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zM6.858 18.752c.605-1.868 2.722-3.24 5.142-3.24 2.42 0 4.537 1.372 5.142 3.24C15.712 19.844 13.933 20.5 12 20.5s-3.712-.656-5.142-1.748zm11.469-1.095c-1.02-2.165-3.483-3.645-6.327-3.645s-5.307 1.48-6.327 3.645A8.456 8.456 0 0 1 3.5 12c0-4.687 3.813-8.5 8.5-8.5 4.687 0 8.5 3.813 8.5 8.5a8.456 8.456 0 0 1-2.173 5.657zM12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm0 5.5c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ol>
+            </header>
+            <dialog aria-hidden="true" class="tds-modal tds-site-header-panel dx-mega-menu-panel tds-scrim--white" style="">
+                <div class="tds-site-header-panel-content" style="--active-panel-height: 0px;">
+                    <div class="dx-mega-menu-panel-content dx-mega-menu-products--count-6">
+                        <div class="dx-mega-menu-products dx-mega-menu-products--with-secondary-links">
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.08s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/models">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-S.png" alt="Model S">
+                                    </a>
+                                </div>
+                                <div class="dx-mega-menu-product-content">
+                                    <h3 class="dx-mega-menu-product-title tds-text--h5">Model S</h3>
+                                    <div class="dx-mega-menu-product-links">
+                                        <a class="tds-link tds-text--caption" href="/models" aria-label="Learn">Learn</a>
+                                        <a class="tds-link tds-text--caption" href="/models/design" aria-label="Order">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.17s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/model3">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-3-LHD.png" alt="Model 3">
+                                    </a>
+                                </div>
+                                <div class="dx-mega-menu-product-content">
+                                    <h3 class="dx-mega-menu-product-title tds-text--h5">Model 3</h3>
+                                    <div class="dx-mega-menu-product-links">
+                                        <a class="tds-link tds-text--caption" href="/model3" aria-label="Learn">Learn</a>
+                                        <a class="tds-link tds-text--caption" href="/model3/design" aria-label="Order">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.25s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/modelx">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-X.png" alt="Model X">
+                                    </a>
+                                </div>
+                                <div class="dx-mega-menu-product-content">
+                                    <h3 class="dx-mega-menu-product-title tds-text--h5">Model X</h3>
+                                    <div class="dx-mega-menu-product-links">
+                                        <a class="tds-link tds-text--caption" href="/modelx" aria-label="Learn">Learn</a>
+                                        <a class="tds-link tds-text--caption" href="/modelx/design" aria-label="Order">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.33s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/modely">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Model-Y.png" alt="Model Y">
+                                    </a>
+                                </div>
+                                <div class="dx-mega-menu-product-content">
+                                    <h3 class="dx-mega-menu-product-title tds-text--h5">Model Y</h3>
+                                    <div class="dx-mega-menu-product-links">
+                                        <a class="tds-link tds-text--caption" href="/modely" aria-label="Learn">Learn</a>
+                                        <a class="tds-link tds-text--caption" href="/modely/design" aria-label="Order">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.42s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/cybertruck">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-Cybertruck-1x.png" alt="Cybertruck">
+                                    </a>
+                                </div>
+                                <div class="dx-mega-menu-product-content">
+                                    <h3 class="dx-mega-menu-product-title tds-text--h5">Cybertruck</h3>
+                                    <div class="dx-mega-menu-product-links">
+                                        <a class="tds-link tds-text--caption" href="/cybertruck" aria-label="Learn">Learn</a>
+                                        <a class="tds-link tds-text--caption" href="/cybertruck/design" aria-label="Order">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.5s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/choose">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Vehicles-HMC-RedBlue-LHD.png" alt="Help Me Choose">
+                                    </a>
+                                </div>
+                                <div class="dx-mega-menu-product-content">
+                                    <h3 class="dx-mega-menu-product-title tds-text--h5">Help Me Choose</h3>
+                                    <div class="dx-mega-menu-product-links">
+                                        <a class="tds-link tds-text--caption" href="/choose" aria-label="Get Started">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dx-mega-menu-panel-divider"></div>
+                        <div class="dx-mega-menu-secondary-links">
+                            <ul class="tds-list dx-list-group">
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/new">Inventory</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/used">Used Cars</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/drive">Demo Drive</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/tradein">Trade-in</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/compare">Compare</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/charge">Help Me Charge</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/fleet">Fleet</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/semi">Semi</a>
+                                </li>
+                                <li>
+                                    <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/roadster">Roadster</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dx-mega-menu-panel-content dx-mega-menu-products--count-4">
+                        <div class="dx-mega-menu-products dx-mega-menu-products--with-secondary-links">
+                            <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.13s;">
+                                <div class="dx-mega-menu-product-asset">
+                                    <a href="/solarpanels">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Solar-Panels.png" alt="Solar Panels"></a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Solar Panels</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/solarpanels" aria-label="Learn">Learn</a>
+                                            <a class="tds-link tds-text--caption" href="/energy/design" aria-label="Order">Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.25s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <a href="/solarroof">
+                                            <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Solar-Roof.png" alt="Solar Roof">
+                                        </a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Solar Roof</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/solarroof" aria-label="Learn">Learn</a>
+                                            <a class="tds-link tds-text--caption" href="/solarroof/design" aria-label="Order">Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.38s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <a href="/powerwall">
+                                            <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Powerwall-US.png" alt="Powerwall">
+                                        </a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Powerwall</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/powerwall" aria-label="Learn">Learn</a>
+                                            <a class="tds-link tds-text--caption" href="/powerwall/design" aria-label="Order">Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.5s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <a href="/megapack">
+                                            <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Energy-Megapack.png" alt="Megapack">
+                                        </a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Megapack</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/megapack" aria-label="Learn">Learn</a>
+                                            <a class="tds-link tds-text--caption" href="/megapack/design" aria-label="Order">Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-panel-divider"></div>
+                            <div class="dx-mega-menu-secondary-links">
+                                <ul class="tds-list dx-list-group">
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/solar-virtual-consultations">Schedule a Consultation</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/why-solar">Why Solar</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/support/energy/powerwall/learn/incentives">Incentives</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/support/energy">Support</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/support/energy/powerwall/installer-resources/partner-with-tesla">Partner with Tesla</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/commercial">Commercial</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/utilities">Utilities</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dx-mega-menu-panel-content dx-mega-menu-products--count-3">
+                            <div class="dx-mega-menu-products dx-mega-menu-products--with-secondary-links">
+                                <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.17s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <a href="/charging">
+                                            <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Charging-Charging.png" alt="Charging">
+                                        </a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Charging</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/charging" aria-label="Learn">Learn</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.33s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <a href="/home-charging">
+                                            <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Charging-Home-Charging.png" alt="Home Charging">
+                                        </a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Home Charging</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/home-charging" aria-label="Learn">Learn</a>
+                                            <a class="tds-link tds-text--caption" href="https://shop.tesla.com/category/charging#charging.at-home" aria-label="Shop">Shop</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dx-mega-menu-product" style="--dx-transition-delay: 0.5s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <a href="/supercharger">
+                                            <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Charging-Supercharging-NA.png" alt="Supercharging">
+                                        </a>
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Supercharging</h3>
+                                        <div class="dx-mega-menu-product-links">
+                                            <a class="tds-link tds-text--caption" href="/supercharger" aria-label="Learn">Learn</a>
+                                            <a class="tds-link tds-text--caption" href="/findus" aria-label="Find">Find</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dx-mega-menu-panel-divider"></div>
+                            <div class="dx-mega-menu-secondary-links">
+                                <ul class="tds-list dx-list-group">
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/charge">Help Me Charge</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/charging-calculator">Charging Calculator</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/trips">Trip Planner</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/NACS">Charging With NACS</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/supercharger-voting/overview">Supercharger Voting</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/host-a-supercharger">Host a Supercharger</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/commercial-charging">Commercial Charging</a>
+                                    </li>
+                                    <li>
+                                        <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/charging-partners">Host Wall Connectors</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dx-mega-menu-panel-content">
+                            <div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-3">
+                                <div class="dx-mega-menu-link-group">
+                                    <h3 class="dx-mega-menu-link-group-title tds-text--h6 tds-text--contrast-low">Resources</h3>
+                                    <ul class="tds-list dx-list-group">
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/drive">Demo Drive</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/insurance">Insurance</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/support/videos">Video Guides</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/customer-stories">Customer Stories</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/events">Events</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dx-mega-menu-link-group">
+                                    <h3 class="dx-mega-menu-link-group-title tds-text--h6 tds-text--contrast-low">Location Services</h3>
+                                    <ul class="tds-list dx-list-group">
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/findus">Find Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/trips">Trip Planner</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/support/collision-support">Find a Collision Center</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/support/certified-installers">Find a Certified Installer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dx-mega-menu-link-group">
+                                    <h3 class="dx-mega-menu-link-group-title tds-text--h6 tds-text--contrast-low">Company</h3>
+                                    <ul class="tds-list dx-list-group">
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/about">About</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="/careers">Careers</a>
+                                        </li>
+                                        <li>
+                                            <a class="tds-link tds-link--secondary tds--product-name tds-text--contrast-high" href="https://ir.tesla.com">Investor Relations</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dx-mega-menu-panel-content dx-mega-menu-products--count-4">
+                            <div class="dx-mega-menu-products">
+                                <a href="https://shop.tesla.com/category/charging" class="dx-mega-menu-product" style="--dx-transition-delay: 0.13s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Charging.png" alt="Charging">
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Charging</h3>
+                                    </div>
+                                </a>
+                                <a href="https://shop.tesla.com/category/vehicle-accessories" class="dx-mega-menu-product" style="--dx-transition-delay: 0.25s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Vehicle-Accessories.png" alt="Vehicle Accessories">
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Vehicle Accessories</h3>
+                                    </div>
+                                </a>
+                                <a href="https://shop.tesla.com/category/apparel" class="dx-mega-menu-product" style="--dx-transition-delay: 0.38s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Apparel.png" alt="Apparel">
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Apparel</h3>
+                                    </div>
+                                </a>
+                                <a href="https://shop.tesla.com/category/lifestyle" class="dx-mega-menu-product" style="--dx-transition-delay: 0.5s;">
+                                    <div class="dx-mega-menu-product-asset">
+                                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Mega-Menu-Shop-Lifestyle.png" alt="Lifestyle">
+                                    </div>
+                                    <div class="dx-mega-menu-product-content">
+                                        <h3 class="dx-mega-menu-product-title tds-text--h5">Lifestyle</h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dx-mega-menu-panel-content">
+                            <div class="dx-mega-menu-locale-selector">
+                                <div class="tds-locale-selector tds-locale-selector--multicolumn">
+                                    <div class="tds-locale-selector-column tds-locale-selector-column--north-america-south-america-middle-east">
+                                        <div class="tds-locale-selector-superregion tds-locale-selector-superregion--north-america">
+                                            <h2 class="tds-text--h4 tds-locale-selector-region-name">North America</h2>
+                                            <div class="tds-locale-selector-region">
+                                                <div class="tds-locale-selector-country tds-card tds-card--dense tds-locale-selector-country--selected tds-country--us">
+                                                    <h3 class="tds-text--h6">United States</h3>
+                                                    <a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/" hreflang="en" lang="en-US" rel="alternate">English</a>
+                                                </div>
+                                                <div class="tds-locale-selector-country tds-card tds-card--dense tds-country--ca">
+                                                    <h3 class="tds-text--h6">Canada</h3>
+                                                    <a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_ca" hreflang="en" lang="en-CA" rel="alternate">English</a>
+                                                    <a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--fr" href="https://www.tesla.com/fr_ca" hreflang="fr" lang="fr-CA" rel="alternate">Français</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--mx"><h3 class="tds-text--h6">México</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--es" href="https://www.tesla.com/es_mx" hreflang="es" lang="es-MX" rel="alternate">Español</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--pr"><h3 class="tds-text--h6">Puerto Rico</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_pr" hreflang="en" lang="en-PR" rel="alternate">English</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--es" href="https://www.tesla.com/es_pr" hreflang="es" lang="es-PR" rel="alternate">Español</a></div></div></div><div class="tds-locale-selector-superregion tds-locale-selector-superregion--south-america"><h2 class="tds-text--h4 tds-locale-selector-region-name">South America</h2><div class="tds-locale-selector-region"><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--cl"><h3 class="tds-text--h6">Chile</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--es" href="https://www.tesla.com/es_cl" hreflang="es" lang="es-CL" rel="alternate">Español</a></div></div></div><div class="tds-locale-selector-superregion tds-locale-selector-superregion--middle-east"><h2 class="tds-text--h4 tds-locale-selector-region-name">Middle-East</h2><div class="tds-locale-selector-region"><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--il"><h3 class="tds-text--h6">ישראל</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--he" href="https://www.tesla.com/he_il" hreflang="he" lang="he-IL" rel="alternate">עִברִית</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--ae"><h3 class="tds-text--h6">UAE</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_ae" hreflang="en" lang="en-AE" rel="alternate">English</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--ar" href="https://www.tesla.com/ar_ae" hreflang="ar" lang="ar-AE" rel="alternate">اَلْعَرَبِيَّةُ</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--jo"><h3 class="tds-text--h6">Jordan</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_jo" hreflang="en" lang="en-JO" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--qa"><h3 class="tds-text--h6">Qatar</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_qa" hreflang="en" lang="en-QA" rel="alternate">English</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--ar" href="https://www.tesla.com/ar_qa" hreflang="ar" lang="ar-QA" rel="alternate">اَلْعَرَبِيَّةُ</a></div></div></div></div><div class="tds-locale-selector-column tds-locale-selector-column--asia-pacific"><div class="tds-locale-selector-superregion tds-locale-selector-superregion--asia-pacific"><h2 class="tds-text--h4 tds-locale-selector-region-name">Asia Pacific</h2><div class="tds-locale-selector-region"><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--cn"><h3 class="tds-text--h6">中国大陆</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--zh" href="https://www.tesla.cn/" hreflang="zh" lang="zh-CN" rel="alternate">简体中文</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--hk"><h3 class="tds-text--h6">Hong Kong</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--zh" href="https://www.tesla.com/zh_hk" hreflang="zh" lang="zh-HK" rel="alternate">繁體中文</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_hk" hreflang="en" lang="en-HK" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--mo"><h3 class="tds-text--h6">Macau</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--zh" href="https://www.tesla.com/zh_mo" hreflang="zh" lang="zh-MO" rel="alternate">繁體中文</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_mo" hreflang="en" lang="en-MO" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--tw"><h3 class="tds-text--h6">台灣</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--zh" href="https://www.tesla.com/zh_tw" hreflang="zh" lang="zh-TW" rel="alternate">繁體中文</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--jp"><h3 class="tds-text--h6">日本</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--ja" href="https://www.tesla.com/ja_jp" hreflang="ja" lang="ja-JP" rel="alternate">日本語</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--my"><h3 class="tds-text--h6">Malaysia</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_my" hreflang="en" lang="en-MY" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--sg"><h3 class="tds-text--h6">Singapore</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_sg" hreflang="en" lang="en-SG" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--th"><h3 class="tds-text--h6">Thailand</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--th" href="https://www.tesla.com/th_th" hreflang="th" lang="th-TH" rel="alternate">ภาษาไทย</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_th" hreflang="en" lang="en-TH" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--kr"><h3 class="tds-text--h6">대한민국</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--ko" href="https://www.tesla.com/ko_kr" hreflang="ko" lang="ko-KR" rel="alternate">한국어</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--au"><h3 class="tds-text--h6">Australia</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_au" hreflang="en" lang="en-AU" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--nz"><h3 class="tds-text--h6">New Zealand</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_nz" hreflang="en" lang="en-NZ" rel="alternate">English</a></div></div></div></div><div class="tds-locale-selector-column tds-locale-selector-column--europe"><div class="tds-locale-selector-superregion tds-locale-selector-superregion--europe"><h2 class="tds-text--h4 tds-locale-selector-region-name">Europe</h2><div class="tds-locale-selector-region"><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--be"><h3 class="tds-text--h6">Belgium</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--nl" href="https://www.tesla.com/nl_be" hreflang="nl" lang="nl-BE" rel="alternate">Nederlands</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--fr" href="https://www.tesla.com/fr_be" hreflang="fr" lang="fr-BE" rel="alternate">Français</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--cz"><h3 class="tds-text--h6">Česko</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--cs" href="https://www.tesla.com/cs_cz" hreflang="cs" lang="cs-CZ" rel="alternate">Čeština</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--dk"><h3 class="tds-text--h6">Danmark</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--da" href="https://www.tesla.com/da_dk" hreflang="da" lang="da-DK" rel="alternate">Dansk</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--de"><h3 class="tds-text--h6">Deutschland</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--de" href="https://www.tesla.com/de_de" hreflang="de" lang="de-DE" rel="alternate">Deutsch</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--gr"><h3 class="tds-text--h6">Ελλάδα</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--el" href="https://www.tesla.com/el_gr" hreflang="el" lang="el-GR" rel="alternate">Ελληνικά</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--es"><h3 class="tds-text--h6">España</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--es" href="https://www.tesla.com/es_es" hreflang="es" lang="es-ES" rel="alternate">Español</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--fr"><h3 class="tds-text--h6">France</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--fr" href="https://www.tesla.com/fr_fr" hreflang="fr" lang="fr-FR" rel="alternate">Français</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--hr"><h3 class="tds-text--h6">Hrvatska</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--hr" href="https://www.tesla.com/hr_hr" hreflang="hr" lang="hr-HR" rel="alternate">Hrvatski</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--hu"><h3 class="tds-text--h6">Magyarország</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--hu" href="https://www.tesla.com/hu_hu" hreflang="hu" lang="hu-HU" rel="alternate">Magyar</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--ie"><h3 class="tds-text--h6">Ireland</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_ie" hreflang="en" lang="en-IE" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--is"><h3 class="tds-text--h6">Ísland</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--is" href="https://www.tesla.com/is_is" hreflang="is" lang="is-IS" rel="alternate">Íslenska</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--it"><h3 class="tds-text--h6">Italia</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--it" href="https://www.tesla.com/it_it" hreflang="it" lang="it-IT" rel="alternate">Italiano</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--lu"><h3 class="tds-text--h6">Luxembourg</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--fr" href="https://www.tesla.com/fr_lu" hreflang="fr" lang="fr-LU" rel="alternate">Français</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--de" href="https://www.tesla.com/de_lu" hreflang="de" lang="de-LU" rel="alternate">Deutsch</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--nl"><h3 class="tds-text--h6">Nederland</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--nl" href="https://www.tesla.com/nl_nl" hreflang="nl" lang="nl-NL" rel="alternate">Nederlands</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--no"><h3 class="tds-text--h6">Norge</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--no" href="https://www.tesla.com/no_no" hreflang="no" lang="no-NO" rel="alternate">Norsk</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--at"><h3 class="tds-text--h6">Österreich</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--de" href="https://www.tesla.com/de_at" hreflang="de" lang="de-AT" rel="alternate">Deutsch</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--pl"><h3 class="tds-text--h6">Polska</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--pl" href="https://www.tesla.com/pl_pl" hreflang="pl" lang="pl-PL" rel="alternate">Polski</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--pt"><h3 class="tds-text--h6">Portugal</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--pt" href="https://www.tesla.com/pt_pt" hreflang="pt" lang="pt-PT" rel="alternate">Português</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--ro"><h3 class="tds-text--h6">România</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--ro" href="https://www.tesla.com/ro_ro" hreflang="ro" lang="ro-RO" rel="alternate">Română</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--si"><h3 class="tds-text--h6">Slovenija</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--sl" href="https://www.tesla.com/sl_si" hreflang="sl" lang="sl-SI" rel="alternate">Slovenščina</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--ch"><h3 class="tds-text--h6">Switzerland</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--fr" href="https://www.tesla.com/fr_ch" hreflang="fr" lang="fr-CH" rel="alternate">Français</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--de" href="https://www.tesla.com/de_ch" hreflang="de" lang="de-CH" rel="alternate">Deutsch</a><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--it" href="https://www.tesla.com/it_ch" hreflang="it" lang="it-CH" rel="alternate">Italiano</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--se"><h3 class="tds-text--h6">Sverige</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--sv" href="https://www.tesla.com/sv_se" hreflang="sv" lang="sv-SE" rel="alternate">Svenska</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--fi"><h3 class="tds-text--h6">Suomi</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--fi" href="https://www.tesla.com/fi_fi" hreflang="fi" lang="fi-FI" rel="alternate">Suomi</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--tr"><h3 class="tds-text--h6">Türkiye</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--tr" href="https://www.tesla.com/tr_tr" hreflang="tr" lang="tr-TR" rel="alternate">Türkçe</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--gb"><h3 class="tds-text--h6">United Kingdom</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_gb" hreflang="en" lang="en-GB" rel="alternate">English</a></div><div class="tds-locale-selector-country tds-card tds-card--dense tds-country--eu"><h3 class="tds-text--h6">Other Europe</h3><a class="tds-link tds-link--secondary tds-locale-selector-language tds-lang--en" href="https://www.tesla.com/en_eu" hreflang="en" lang="en-EU" rel="alternate">English</a></div></div></div></div></div></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/en_ca" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li><li><a href="https://www.tesla.com/fr_ca" id="dx-nav-item--French" hreflang="fr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">French</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/en_pr" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li><li><a href="https://www.tesla.com/es_pr" id="dx-nav-item--Spanish" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Spanish</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/" id="dx-nav-item--United States" hreflang="en" rel="alternate" class="tds-site-nav-item tds--highlighted tds--product-name"><span class="tds-site-nav-item-text">United States</span></a></li><li><button type="button" id="dx-nav-item--Canada" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Canada</span></button></li><li><a href="https://www.tesla.com/es_mx" id="dx-nav-item--Mexico" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Mexico</span></a></li><li><button type="button" id="dx-nav-item--Puerto Rico" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Puerto Rico</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/" id="dx-nav-item--United States" hreflang="en" rel="alternate" class="tds-site-nav-item tds--highlighted tds--product-name"><span class="tds-site-nav-item-text">United States</span></a></li><li><button type="button" id="dx-nav-item--Canada" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Canada</span></button></li><li><a href="https://www.tesla.com/es_mx" id="dx-nav-item--Mexico" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Mexico</span></a></li><li><button type="button" id="dx-nav-item--Puerto Rico" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Puerto Rico</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/es_cl" id="dx-nav-item--Chile" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Chile</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/en_ae" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li><li><a href="https://www.tesla.com/ar_ae" id="dx-nav-item--Arabic" hreflang="ar" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Arabic</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/en_qa" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li><li><a href="https://www.tesla.com/ar_qa" id="dx-nav-item--Arabic" hreflang="ar" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Arabic</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/" id="dx-nav-item--United States" hreflang="en" rel="alternate" class="tds-site-nav-item tds--highlighted tds--product-name"><span class="tds-site-nav-item-text">United States</span></a></li><li><button type="button" id="dx-nav-item--Canada" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Canada</span></button></li><li><a href="https://www.tesla.com/es_mx" id="dx-nav-item--Mexico" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Mexico</span></a></li><li><button type="button" id="dx-nav-item--Puerto Rico" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Puerto Rico</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/es_cl" id="dx-nav-item--Chile" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Chile</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/he_il" id="dx-nav-item--Israel" hreflang="he" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Israel</span></a></li><li><button type="button" id="dx-nav-item--United Arab Emirates" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">United Arab Emirates</span></button></li><li><a href="https://www.tesla.com/en_jo" id="dx-nav-item--Jordan" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Jordan</span></a></li><li><button type="button" id="dx-nav-item--Qatar" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Qatar</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/zh_hk" id="dx-nav-item--Chinese" hreflang="zh" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Chinese</span></a></li><li><a href="https://www.tesla.com/en_hk" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/zh_mo" id="dx-nav-item--Chinese" hreflang="zh" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Chinese</span></a></li><li><a href="https://www.tesla.com/en_mo" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/th_th" id="dx-nav-item--Thai" hreflang="th" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Thai</span></a></li><li><a href="https://www.tesla.com/en_th" id="dx-nav-item--English" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">English</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/" id="dx-nav-item--United States" hreflang="en" rel="alternate" class="tds-site-nav-item tds--highlighted tds--product-name"><span class="tds-site-nav-item-text">United States</span></a></li><li><button type="button" id="dx-nav-item--Canada" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Canada</span></button></li><li><a href="https://www.tesla.com/es_mx" id="dx-nav-item--Mexico" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Mexico</span></a></li><li><button type="button" id="dx-nav-item--Puerto Rico" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Puerto Rico</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/es_cl" id="dx-nav-item--Chile" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Chile</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/he_il" id="dx-nav-item--Israel" hreflang="he" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Israel</span></a></li><li><button type="button" id="dx-nav-item--United Arab Emirates" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">United Arab Emirates</span></button></li><li><a href="https://www.tesla.com/en_jo" id="dx-nav-item--Jordan" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Jordan</span></a></li><li><button type="button" id="dx-nav-item--Qatar" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Qatar</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.cn/" id="dx-nav-item--China mainland" hreflang="zh" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">China mainland</span></a></li><li><button type="button" id="dx-nav-item--Hong Kong" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Hong Kong</span></button></li><li><button type="button" id="dx-nav-item--Macau" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Macau</span></button></li><li><a href="https://www.tesla.com/zh_tw" id="dx-nav-item--Taiwan" hreflang="zh" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Taiwan</span></a></li><li><a href="https://www.tesla.com/ja_jp" id="dx-nav-item--Japan" hreflang="ja" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Japan</span></a></li><li><a href="https://www.tesla.com/en_my" id="dx-nav-item--Malaysia" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Malaysia</span></a></li><li><a href="https://www.tesla.com/en_sg" id="dx-nav-item--Singapore" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Singapore</span></a></li><li><button type="button" id="dx-nav-item--Thailand" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Thailand</span></button></li><li><a href="https://www.tesla.com/ko_kr" id="dx-nav-item--South Korea" hreflang="ko" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">South Korea</span></a></li><li><a href="https://www.tesla.com/en_au" id="dx-nav-item--Australia" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Australia</span></a></li><li><a href="https://www.tesla.com/en_nz" id="dx-nav-item--New Zealand" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">New Zealand</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/nl_be" id="dx-nav-item--Dutch" hreflang="nl" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Dutch</span></a></li><li><a href="https://www.tesla.com/fr_be" id="dx-nav-item--French" hreflang="fr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">French</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/fr_lu" id="dx-nav-item--French" hreflang="fr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">French</span></a></li><li><a href="https://www.tesla.com/de_lu" id="dx-nav-item--German" hreflang="de" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">German</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/fr_ch" id="dx-nav-item--French" hreflang="fr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">French</span></a></li><li><a href="https://www.tesla.com/de_ch" id="dx-nav-item--German" hreflang="de" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">German</span></a></li><li><a href="https://www.tesla.com/it_ch" id="dx-nav-item--Italian" hreflang="it" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Italian</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/" id="dx-nav-item--United States" hreflang="en" rel="alternate" class="tds-site-nav-item tds--highlighted tds--product-name"><span class="tds-site-nav-item-text">United States</span></a></li><li><button type="button" id="dx-nav-item--Canada" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Canada</span></button></li><li><a href="https://www.tesla.com/es_mx" id="dx-nav-item--Mexico" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Mexico</span></a></li><li><button type="button" id="dx-nav-item--Puerto Rico" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Puerto Rico</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/es_cl" id="dx-nav-item--Chile" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Chile</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.com/he_il" id="dx-nav-item--Israel" hreflang="he" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Israel</span></a></li><li><button type="button" id="dx-nav-item--United Arab Emirates" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">United Arab Emirates</span></button></li><li><a href="https://www.tesla.com/en_jo" id="dx-nav-item--Jordan" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Jordan</span></a></li><li><button type="button" id="dx-nav-item--Qatar" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Qatar</span></button></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><a href="https://www.tesla.cn/" id="dx-nav-item--China mainland" hreflang="zh" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">China mainland</span></a></li><li><button type="button" id="dx-nav-item--Hong Kong" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Hong Kong</span></button></li><li><button type="button" id="dx-nav-item--Macau" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Macau</span></button></li><li><a href="https://www.tesla.com/zh_tw" id="dx-nav-item--Taiwan" hreflang="zh" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Taiwan</span></a></li><li><a href="https://www.tesla.com/ja_jp" id="dx-nav-item--Japan" hreflang="ja" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Japan</span></a></li><li><a href="https://www.tesla.com/en_my" id="dx-nav-item--Malaysia" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Malaysia</span></a></li><li><a href="https://www.tesla.com/en_sg" id="dx-nav-item--Singapore" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Singapore</span></a></li><li><button type="button" id="dx-nav-item--Thailand" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Thailand</span></button></li><li><a href="https://www.tesla.com/ko_kr" id="dx-nav-item--South Korea" hreflang="ko" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">South Korea</span></a></li><li><a href="https://www.tesla.com/en_au" id="dx-nav-item--Australia" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Australia</span></a></li><li><a href="https://www.tesla.com/en_nz" id="dx-nav-item--New Zealand" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">New Zealand</span></a></li></ol></div></div><div class="dx-mega-menu-panel-content"><div class="dx-mega-menu-link-groups dx-mega-menu-link-groups--count-0"><ol class="tds-site-nav-items tds-site-nav-items--vertical dx-nav-item-group tds-site-nav-items--spacious" localizedtext="[object Object]"><li><button type="button" id="dx-nav-item--Belgium" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Belgium</span></button></li><li><a href="https://www.tesla.com/cs_cz" id="dx-nav-item--Czechia" hreflang="cs" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Czechia</span></a></li><li><a href="https://www.tesla.com/da_dk" id="dx-nav-item--Denmark" hreflang="da" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Denmark</span></a></li><li><a href="https://www.tesla.com/de_de" id="dx-nav-item--Germany" hreflang="de" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Germany</span></a></li><li><a href="https://www.tesla.com/el_gr" id="dx-nav-item--Greece" hreflang="el" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Greece</span></a></li><li><a href="https://www.tesla.com/es_es" id="dx-nav-item--Spain" hreflang="es" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Spain</span></a></li><li><a href="https://www.tesla.com/fr_fr" id="dx-nav-item--France" hreflang="fr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">France</span></a></li><li><a href="https://www.tesla.com/hr_hr" id="dx-nav-item--Croatia" hreflang="hr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Croatia</span></a></li><li><a href="https://www.tesla.com/hu_hu" id="dx-nav-item--Hungary" hreflang="hu" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Hungary</span></a></li><li><a href="https://www.tesla.com/en_ie" id="dx-nav-item--Ireland" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Ireland</span></a></li><li><a href="https://www.tesla.com/is_is" id="dx-nav-item--Iceland" hreflang="is" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Iceland</span></a></li><li><a href="https://www.tesla.com/it_it" id="dx-nav-item--Italy" hreflang="it" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Italy</span></a></li><li><button type="button" id="dx-nav-item--Luxembourg" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Luxembourg</span></button></li><li><a href="https://www.tesla.com/nl_nl" id="dx-nav-item--Netherlands" hreflang="nl" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Netherlands</span></a></li><li><a href="https://www.tesla.com/no_no" id="dx-nav-item--Norway" hreflang="no" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Norway</span></a></li><li><a href="https://www.tesla.com/de_at" id="dx-nav-item--Austria" hreflang="de" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Austria</span></a></li><li><a href="https://www.tesla.com/pl_pl" id="dx-nav-item--Poland" hreflang="pl" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Poland</span></a></li><li><a href="https://www.tesla.com/pt_pt" id="dx-nav-item--Portugal" hreflang="pt" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Portugal</span></a></li><li><a href="https://www.tesla.com/ro_ro" id="dx-nav-item--Romania" hreflang="ro" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Romania</span></a></li><li><a href="https://www.tesla.com/sl_si" id="dx-nav-item--Slovenia" hreflang="sl" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Slovenia</span></a></li><li><button type="button" id="dx-nav-item--Switzerland" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Switzerland</span></button></li><li><a href="https://www.tesla.com/sv_se" id="dx-nav-item--Sweden" hreflang="sv" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Sweden</span></a></li><li><a href="https://www.tesla.com/fi_fi" id="dx-nav-item--Finland" hreflang="fi" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Finland</span></a></li><li><a href="https://www.tesla.com/tr_tr" id="dx-nav-item--Türkiye" hreflang="tr" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">Türkiye</span></a></li><li><a href="https://www.tesla.com/en_gb" id="dx-nav-item--United Kingdom" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">United Kingdom</span></a></li><li><a href="https://www.tesla.com/en_eu" id="dx-nav-item--European Union" hreflang="en" rel="alternate" class="tds-site-nav-item tds--product-name"><span class="tds-site-nav-item-text">European Union</span></a></li></ol></div></div></div><div class="tds-site-header-panel-footer"><div><span><div></div></span></div></div></dialog><div class="tds-modal-backdrop"></div></div></div>
+  </div>

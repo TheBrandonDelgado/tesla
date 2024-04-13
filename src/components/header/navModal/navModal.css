@@ -1,0 +1,118 @@
+.nav-modal.visible {
+    max-height: 60vh;
+    opacity: 1;
+    transition: max-height 0.5s cubic-bezier(0.5, 0, 0, 0.75), opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+}
+
+.nav-modal {
+    position: fixed;
+    top: 0%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    max-height: 0;
+    z-index: 3;
+    overflow-y: auto;
+    /* margin-top: 56px; */
+    padding: calc(56px + 4%) 10% 5% 10%;
+    opacity: 0;
+    transition: max-height 0.5s cubic-bezier(0.5, 0, 0, 0.75), opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+}
+
+.main-items-menu {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+    padding: 0 4% 0 2%;
+}
+
+.side-items-menu {
+    width: 26%;
+    border-left: 1px solid rgb(226, 227, 227);
+}
+
+.side-items-menu > ul, .sections-menu > div > ul {
+    list-style-type: none;
+}
+
+.side-items-menu > ul > li {
+    padding: 7px 10px;
+}
+
+.side-items-menu > ul > li > a, .section-links > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.product {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75), transform 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+}
+
+.nav-modal.visible .product {
+    opacity: 1; 
+    transform: translateY(0);
+}
+
+.product-image {
+    width: 220px;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.product-content > h3 {
+    margin: 5px;
+    font-weight: 500;
+}
+
+.product-content-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+
+.product-content-links > a {
+    font-size: 14px;
+    color: rgb(92, 94, 98);
+}
+
+.sections-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.sections-menu > div {
+    text-align: left;
+}
+
+.sections-menu > div > ul {
+    padding: 0;
+}
+
+.section-heading {
+    color: rgb(92, 94, 98);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-links > li {
+    padding: 7px 0;
+}

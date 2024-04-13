@@ -1,24 +1,33 @@
-.header {
+#nav {
     display: flex;
     position: absolute;
-    z-index: 2;
+    z-index: 4;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
+    height: 55px;
 }
 
 .logo {
     width: 120px;
-    margin: 0 40px;
+    margin: 0 0 0 40px;
+    z-index: 4;
 }
 
 #menu-items-middle, #menu-items-end {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    align-items: center;
+}
+
+#menu-items-middle {
+    padding: 0;
 }
 
 #menu-items-end {
-    margin: 0 45px;
+    margin: 10px 45px 10px 0;
+    padding: 0;
 }
 
 #menu-items-middle > li > button {
@@ -29,8 +38,33 @@
     font-weight: 500;
     letter-spacing: .02em;
     margin: 0 10px;
+    padding: 7px;
+    transition: color .33s ease,background-color .33s ease;
 }
 
-#menu-items-end > li {
-    margin: 10px 8px;
+.submenu-open > li > button {
+    color: black !important;
+}
+
+.logo.submenu-open {
+    filter: brightness(1) invert(1);
+}
+
+#menu-items-end > li > a {
+    padding: 8px;
+    border: 0px;
+    border-radius: 4px;
+    transition: color .33s ease,background-color .33s ease;
+}
+
+#menu-items-end > li > a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(16px);
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    backdrop-filter: blur(16px);
+    transition: background-color 0.33s ease;
 }
