@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import HeroBanner from './components/heroBanner/HeroBanner';
 import Header from './components/header/Header';
+import Products from './components/products/Products';
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <HeroBanner />
+      <Products />
     </div>
   );
 }
