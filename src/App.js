@@ -2,6 +2,7 @@ import './App.css';
 import HeroBanner from './components/heroBanner/HeroBanner';
 import Header from './components/header/Header';
 import Products from './components/products/Products';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HeroBanner />
       <Products />
+      <Footer />
     </div>
   );
 }

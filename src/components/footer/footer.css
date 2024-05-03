@@ -1,0 +1,17 @@
+.footer {
+    position: relative;
+    top: -50px;
+    z-index: 3;
+    height: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-link {
+    color: rgb(208, 209, 210);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
