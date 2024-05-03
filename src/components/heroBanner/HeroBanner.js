@@ -16,7 +16,8 @@ function HeroBanner() {
             top: 0,
             left: 0,
             behavior: 'smooth' // This makes the scroll smooth
-          });
+        });
+        document.body.style.overflow = 'hidden';
     }
     const openSuperchargingModal = () => {
         setIsSuperchargingModalOpen(true);
@@ -25,7 +26,8 @@ function HeroBanner() {
             top: 0,
             left: 0,
             behavior: 'smooth' // This makes the scroll smooth
-          });
+        });
+        document.body.style.overflow = 'hidden';
     }        
     const closeModal = () => {
         setIsModelYModalOpen(false);
@@ -34,7 +36,8 @@ function HeroBanner() {
             top: prevScrollPos.y,
             left: prevScrollPos.x,
             behavior: 'smooth'
-          });
+        });
+        document.body.style.overflow = '';
     }
 
     const slidesData = [
@@ -107,7 +110,7 @@ function HeroBanner() {
     }, [currentSlide, slidesData.length, isModelYModalOpen, isSuperchargingModalOpen]);
 
     return (
-        <div className={`hero-slides ${(isModelYModalOpen || isSuperchargingModalOpen) && 'blur'}`}>
+        <div className={`hero-slides ${(isModelYModalOpen || isSuperchargingModalOpen) && 'blur'}`} onClick={(isModelYModalOpen || isSuperchargingModalOpen) ? closeModal : null}>
             {slidesData.map((slide, index) => (
                 <div key={slide.id} className={`hero-slide ${index === currentSlide ? 'hero-slide--active' : ''}`}>
                     <div className="hero-slide-video">

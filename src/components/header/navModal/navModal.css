@@ -2,6 +2,7 @@
     max-height: 60vh;
     opacity: 1;
     transition: max-height 0.5s cubic-bezier(0.5, 0, 0, 0.75), opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+    z-index: 3;
 }
 
 .nav-modal {
@@ -13,7 +14,7 @@
     justify-content: space-around;
     background-color: white;
     max-height: 0;
-    z-index: 3;
+    z-index: 0;
     overflow-y: auto;
     /* margin-top: 56px; */
     padding: calc(56px + 4%) 10% 5% 10%;

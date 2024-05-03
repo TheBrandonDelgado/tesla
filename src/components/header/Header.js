@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion, faCircleUser } from '@fortawesome/free-regular-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import NavModal from './navModal/NavModal';
-import { act } from 'react-dom/test-utils';
 
 function Header() {
     const [ isSubmenuVisible, setIsSubmenuVisible ] = useState(false);
@@ -21,8 +20,13 @@ function Header() {
 
     useEffect(() => {
         const banner = document.querySelector(".hero-slides");
-
-        isSubmenuVisible ? banner.classList.add("blur") : banner.classList.remove('blur');
+        if (isSubmenuVisible) {
+            banner.classList.add("blur");
+            document.body.style.overflow = 'hidden';
+        } else {
+            banner.classList.remove('blur');
+            document.body.style.overflow = '';
+        }
     }, [isSubmenuVisible])
 
     return (
