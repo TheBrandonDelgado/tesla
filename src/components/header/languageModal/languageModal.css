@@ -1,0 +1,79 @@
+.language-modal.visible {
+    max-height: 60vh;
+    opacity: 1;
+    transition: max-height 0.5s cubic-bezier(0.5, 0, 0, 0.75), opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+    z-index: 3;
+}
+
+.language-modal {
+    position: fixed;
+    top: 0%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: white;
+    max-height: 0;
+    z-index: 0;
+    overflow-y: auto;
+    /* margin-top: 56px; */
+    padding: calc(56px + 3%) 10% 5% 10%;
+    opacity: 0;
+    transition: max-height 0.5s cubic-bezier(0.5, 0, 0, 0.75), opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+}
+
+.language-right {
+    flex-grow: 2;
+}
+
+.language-left, .language-middle {
+    flex-grow: 1;
+}
+
+.europe-region-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 800px;
+    margin: 0;
+    padding: 0;
+}
+
+.major-region {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.region {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.language {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(92, 94, 98);
+    text-decoration: none;
+    transition: color 0.33s normal, border-bottom 0.33s normal;
+    margin: 5px 10px 5px 0px;
+}
+
+.language:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.region-card {
+    padding: 10px;
+    margin: 10px 20px 10px -10px;
+    max-width: 215px;
+}
+
+.region-card:hover, .region-card.current {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    transition: background-color 0.33s normal;
+}

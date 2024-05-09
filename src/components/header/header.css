@@ -6,6 +6,12 @@
     align-items: center;
     width: 100vw;
     height: 55px;
+    background-color: transparent;
+}
+
+#nav.menu-open {
+    background-color: white;
+    transition: background-color 0s ease 0.5s;
 }
 
 .logo {

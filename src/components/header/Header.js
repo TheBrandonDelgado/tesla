@@ -5,39 +5,43 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleQuestion, faCircleUser } from '@fortawesome/free-regular-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import NavModal from './navModal/NavModal';
+import LanguageModal from './languageModal/LanguageModal';
 
 function Header() {
     const [ isSubmenuVisible, setIsSubmenuVisible ] = useState(false);
     const [ activeMenuTab, setActiveMenuTab ] = useState();
+    const [ isLanguageMenuVisible, setIsLanguageMenuVisible ] = useState(false);
 
     const onHover = (e) => {
         setActiveMenuTab(e.currentTarget.id);
+        setIsLanguageMenuVisible(false);
     }
 
     const onClose = () => {
         setIsSubmenuVisible(false);
+        setIsLanguageMenuVisible(false);
     }
 
     useEffect(() => {
         const banner = document.querySelector(".hero-slides");
-        if (isSubmenuVisible) {
+        if (isSubmenuVisible || isLanguageMenuVisible) {
             banner.classList.add("blur");
             document.body.style.overflow = 'hidden';
         } else {
             banner.classList.remove('blur');
             document.body.style.overflow = '';
         }
-    }, [isSubmenuVisible])
+    }, [isSubmenuVisible, isLanguageMenuVisible])
 
     return (
-        <div className="header">
-            <div id="nav">
-                <h1 className="tesla-logo" alt="This is a Tesla logo" onMouseEnter={() => onClose()}>
+        <div className='header'>
+            <div id="nav" className={isSubmenuVisible || isLanguageMenuVisible ? 'menu-open': ''}>
+                <h1 className="tesla-logo" alt="This is a Tesla logo" onMouseEnter={onClose}>
                     <a href="/">
-                        <img className={`logo ${isSubmenuVisible ? "submenu-open" : "" }`} src={logo} alt="Tesla logo"></img>
+                        <img className={`logo ${(isSubmenuVisible || isLanguageMenuVisible) ? "submenu-open" : "" }`} src={logo} alt="Tesla logo"></img>
                     </a>
                 </h1>
-                <ol id="menu-items-middle" className={ isSubmenuVisible ? "submenu-open" : "" } onMouseEnter={() => setIsSubmenuVisible(true)}>
+                <ol id="menu-items-middle" className={ (isSubmenuVisible || isLanguageMenuVisible) ? "submenu-open" : "" } onMouseEnter={() => setIsSubmenuVisible(true)}>
                     <li id="vehicles" className={ activeMenuTab === 'vehicles' && isSubmenuVisible ? "active" : ""} onMouseEnter={onHover}>
                         <button>
                             <span>Vehicles</span>
@@ -64,25 +68,26 @@ function Header() {
                         </button>
                     </li>
                 </ol>
-                <ol id="menu-items-end" onMouseEnter={() => onClose()}>
+                <ol id="menu-items-end" onMouseEnter={onClose}>
                     <li>
                         <a href="https://www.tesla.com/support">
-                            <FontAwesomeIcon icon={faCircleQuestion} style={ isSubmenuVisible ? { color: "black" } : { color: "white" } } size="lg" />
+                            <FontAwesomeIcon icon={faCircleQuestion} style={ (isSubmenuVisible || isLanguageMenuVisible) ? { color: "black" } : { color: "white" } } size="lg" />
                         </a>
                     </li>
                     <li>
-                        <a>
-                            <FontAwesomeIcon icon={faGlobe} style={ isSubmenuVisible ? { color: "black" } : { color: "white" } } size="lg" />
+                        <a href='#' onClick={() => setIsLanguageMenuVisible(!isLanguageMenuVisible)}>
+                            <FontAwesomeIcon icon={faGlobe} style={ (isSubmenuVisible || isLanguageMenuVisible) ? { color: "black" } : { color: "white" } } size="lg" />
                         </a>
                     </li>
                     <li>
                         <a href="https://www.tesla.com/teslaaccount">
-                            <FontAwesomeIcon icon={faCircleUser} style={ isSubmenuVisible ? { color: "black" } : { color: "white" } } size="lg" />
+                            <FontAwesomeIcon icon={faCircleUser} style={ (isSubmenuVisible || isLanguageMenuVisible) ? { color: "black" } : { color: "white" } } size="lg" />
                         </a>
                     </li>
                 </ol>
             </div>
             <NavModal isVisible={isSubmenuVisible} onClose={onClose} activeMenu={activeMenuTab} />
+            <LanguageModal isVisible={isLanguageMenuVisible} onClose={onClose} />
         </div>
         
     );

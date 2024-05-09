@@ -9,6 +9,7 @@
     position: fixed;
     top: 0%;
     width: 80%;
+    max-width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,10 +17,10 @@
     max-height: 0;
     z-index: 0;
     overflow-y: auto;
-    /* margin-top: 56px; */
     padding: calc(56px + 4%) 10% 5% 10%;
     opacity: 0;
     transition: max-height 0.5s cubic-bezier(0.5, 0, 0, 0.75), opacity 0.5s cubic-bezier(0.5, 0, 0, 0.75);
+    overflow-x: hidden;
 }
 
 .main-items-menu {
@@ -116,4 +117,10 @@
 
 .section-links > li {
     padding: 7px 0;
+}
+
+@media (min-width: 1800px) {
+    .nav-modal {
+        padding: calc(56px + 4%) calc((100vw - 1600px) / 2) 5% calc((100vw - 1600px) / 2);
+    }
 }
