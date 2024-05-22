@@ -15,7 +15,7 @@ function HeroBanner() {
         window.scrollTo({
             top: 0,
             left: 0,
-            behavior: 'smooth' // This makes the scroll smooth
+            behavior: 'smooth'
         });
         document.body.style.overflow = 'hidden';
     }
@@ -25,7 +25,7 @@ function HeroBanner() {
         window.scrollTo({
             top: 0,
             left: 0,
-            behavior: 'smooth' // This makes the scroll smooth
+            behavior: 'smooth'
         });
         document.body.style.overflow = 'hidden';
     }        

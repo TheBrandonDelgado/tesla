@@ -4,6 +4,7 @@ export const productsData = [
         subTitle: "From $29,490*",
         description: "After Federal Tax Credit & Est. Gas Savings",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Mobile-Global.jpg',
         buttons: [
             {
                 text: "Order Now",
@@ -25,6 +26,7 @@ export const productsData = [
         subTitle: "From $299/mo*",
         description: "Est. Lease Price Before Gas Savings",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Mobile-LHD-v2.jpg',
         buttons: [
             {
                 text: "Order Now",
@@ -47,6 +49,7 @@ export const productsData = [
         subTitle: "From $63,990*",
         description: "After Federal Tax Credit & Est. Gas Savings",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop.jpg",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/h_1700,q_auto:best/Homepage-Model-X-Mobile-LHD_001',
         buttons: [
             {
                 text: "Order Now",
@@ -69,6 +72,7 @@ export const productsData = [
         subTitle: "From $66,490*",
         description: "After Est. Gas Savings",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Mobile-LHD-6.22.jpg',
         buttons: [
             {
                 text: "Order Now",
@@ -87,6 +91,7 @@ export const productsData = [
     },
     {
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg",
+        mobileImage: 'https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Mobile.jpg',
         buttons: [
             {
                 text: "Order Now",
@@ -104,6 +109,7 @@ export const productsData = [
         subTitleLink: "https://www.tesla.com/event/schedule-virtual-energy-consultations",
         color: "white",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Mobile.jpg',
         buttons: [
             {
                 text: "Order Now",
@@ -119,6 +125,7 @@ export const productsData = [
         title: "Solar Roof",
         subTitle: "Produce Clean Energy From Your Roof",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/h_2100,q_auto:best/Homepage-SolarRoof-Mobile',
         buttons: [
             {
                 text: "Order Now",
@@ -133,6 +140,7 @@ export const productsData = [
     {
         title: "Powerwall",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Mobile.jpg',
         buttons: [
             {
                 text: "Order Now",
@@ -147,6 +155,7 @@ export const productsData = [
     {
         title: "Accessories",
         image: "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg",
+        mobileImage: 'https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Mobile-NA-APAC.jpg',
         buttons: [
             {
                 text: "Shop Now",

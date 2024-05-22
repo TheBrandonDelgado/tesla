@@ -91,6 +91,7 @@ p {
 .cta-primary {
     background-color: white;
     margin-right: 20px;
+    color: black;
 }
 
 .cta-secondary {
@@ -112,4 +113,15 @@ p {
 
 .blur {
     filter: blur(4px);
+}
+
+@media (max-width: 600px) {
+    .hero-slide-content {
+        max-width: 95vw;
+        top: 45%;
+    }
+
+    .hero-tab-list {
+        bottom: 56%;
+    }
 }

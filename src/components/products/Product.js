@@ -2,10 +2,10 @@ import React from 'react';
 import './Products.css';
 
 function Product({ product }) {
-    const { title, subTitle, subTitleLink, description, color, image, buttons, disclaimer, disclaimerLink, disclaimerColor } = product;
+    const { title, subTitle, subTitleLink, description, color, image, mobileImage, buttons, disclaimer, disclaimerLink, disclaimerColor } = product;
 
     return (
-        <div className={`product-container ${color}`} style={{ backgroundImage: `url(${image})` }}>
+        <div className={`product-container ${color}`} style={ window.innerWidth > 600 ? { backgroundImage: `url(${image})` } : { backgroundImage: `url(${mobileImage})`, 'background-position-y': '30%' } }>
             <div className='product-headline'>
                 <h1 className='product-title'>{title}</h1>
                 { subTitle && !subTitleLink ? <p className='product-subtitle'>{subTitle}</p> : false }

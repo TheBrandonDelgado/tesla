@@ -124,3 +124,12 @@
         padding: calc(56px + 4%) calc((100vw - 1600px) / 2) 5% calc((100vw - 1600px) / 2);
     }
 }
+
+@media (max-width: 1200px) {
+    .product {
+        opacity: 1;
+        transform: none;
+        transition: none;
+        width: 200px;
+    }
+}

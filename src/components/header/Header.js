@@ -6,11 +6,13 @@ import { faCircleQuestion, faCircleUser } from '@fortawesome/free-regular-svg-ic
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import NavModal from './navModal/NavModal';
 import LanguageModal from './languageModal/LanguageModal';
+import MobileModal from './mobileModal/MobileModal';
 
 function Header() {
     const [ isSubmenuVisible, setIsSubmenuVisible ] = useState(false);
     const [ activeMenuTab, setActiveMenuTab ] = useState();
     const [ isLanguageMenuVisible, setIsLanguageMenuVisible ] = useState(false);
+    const [ isMobileMenuVisible, setIsMobileMenuVisible ] = useState(false);
 
     const onHover = (e) => {
         setActiveMenuTab(e.currentTarget.id);
@@ -20,18 +22,19 @@ function Header() {
     const onClose = () => {
         setIsSubmenuVisible(false);
         setIsLanguageMenuVisible(false);
+        setIsMobileMenuVisible(false);
     }
 
     useEffect(() => {
         const banner = document.querySelector(".hero-slides");
-        if (isSubmenuVisible || isLanguageMenuVisible) {
+        if (isSubmenuVisible || isLanguageMenuVisible || isMobileMenuVisible) {
             banner.classList.add("blur");
             document.body.style.overflow = 'hidden';
         } else {
             banner.classList.remove('blur');
             document.body.style.overflow = '';
         }
-    }, [isSubmenuVisible, isLanguageMenuVisible])
+    }, [isSubmenuVisible, isLanguageMenuVisible, isMobileMenuVisible])
 
     return (
         <div className='header'>
@@ -85,9 +88,11 @@ function Header() {
                         </a>
                     </li>
                 </ol>
+                <button id="mobile-menu" onClick={() => setIsMobileMenuVisible(true)}>Menu</button>
             </div>
             <NavModal isVisible={isSubmenuVisible} onClose={onClose} activeMenu={activeMenuTab} />
             <LanguageModal isVisible={isLanguageMenuVisible} onClose={onClose} />
+            <MobileModal isVisible={isMobileMenuVisible} onClose={onClose} />
         </div>
         
     );
