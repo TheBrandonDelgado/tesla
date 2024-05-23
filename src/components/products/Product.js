@@ -1,5 +1,6 @@
 import React from 'react';
 import './Products.css';
+import cybertruckLogo from '../../assets/cybertruck.png';
 
 function Product({ product }) {
     const { title, subTitle, subTitleLink, description, color, image, mobileImage, buttons, disclaimer, disclaimerLink, disclaimerColor } = product;
@@ -8,6 +9,7 @@ function Product({ product }) {
         <div className={`product-container ${color}`} style={ window.innerWidth > 600 ? { backgroundImage: `url(${image})` } : { backgroundImage: `url(${mobileImage})`, 'background-position-y': '30%' } }>
             <div className='product-headline'>
                 <h1 className='product-title'>{title}</h1>
+                { (image.includes('Cybertruck') && window.innerWidth < 600) && <img id='cybertruck-logo' src={cybertruckLogo}></img> }
                 { subTitle && !subTitleLink ? <p className='product-subtitle'>{subTitle}</p> : false }
                 { subTitle && subTitleLink ? <a href={subTitleLink} className='product-subtitle-link'>{subTitle}</a> : false }
                 { description && <p className='product-description'>{description}</p> }
