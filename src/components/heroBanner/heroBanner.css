@@ -124,4 +124,8 @@ p {
     .hero-tab-list {
         bottom: 56%;
     }
+
+    .hero-slide-content > h1 {
+        font-size: 30px;
+    }
 }
